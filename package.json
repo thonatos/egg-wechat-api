@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "co-wechat-api": "3.5.0",
-    "egg-redis": "1.0.2"
+    "egg-redis": "2.0.0"
   },
   "devDependencies": {
     "autod": "3.0.1",

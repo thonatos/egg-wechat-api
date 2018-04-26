@@ -3,13 +3,18 @@
 exports.keys = '123456';
 
 exports.redis = {
-  client: {
+  clients: {
     foo: {
       port: 6379,
       host: '127.0.0.1',
       password: null,
-      family: 4,
-      db: 6,
+      db: 0,
+    },
+    bar: {
+      port: 6379,
+      host: '127.0.0.1',
+      password: null,
+      db: 1,
     },
   },
 };

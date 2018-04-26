@@ -72,7 +72,7 @@ exports.wechatApi = {
 exports.wechatApi = {
   appId: '',
   appSecret: '',
-  redisdb: '', // select client of redis
+  redisInstance: '', // select instance of redis
 };
 ```
 

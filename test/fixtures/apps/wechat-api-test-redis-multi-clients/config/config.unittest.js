@@ -28,5 +28,5 @@ exports.wechatApi = {
   // wechat
   appId: process.env.WECHAT_API_APP_ID,
   appSecret: process.env.WECHAT_API_APP_SECRET,
-  redisdb: process.env.REDIS_DB,
+  redisInstance: process.env.REDIS_INSTANCE,
 };

@@ -23,6 +23,6 @@ sudo chown redis:redis /var/lib/redis2
 
 echo "Starting Second Service..."
 
-sudo /etc/init.d/redis-server2 start
+/etc/init.d/redis-server2 start
 sleep 3
 echo "Finished setup of second redis server."

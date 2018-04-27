@@ -8,7 +8,7 @@ install:
   - npm i npminstall && npminstall
 
 before_script:
-  - tests/travis/redis_setup.sh
+  - test/travis/redis_setup.sh
 
 script:
   - npm run ci

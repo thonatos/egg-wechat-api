@@ -11,7 +11,7 @@ exports.redis = {
       db: 0,
     },
     bar: {
-      port: 6379,
+      port: 6380,
       host: '127.0.0.1',
       password: null,
       db: 1,

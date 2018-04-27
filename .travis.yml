@@ -10,11 +10,12 @@ install:
 script:
   - npm run ci
 
+before_script:
+  - chmod +x test/travis/redis_setup.sh
+  - test/travis/redis_setup.sh
+
 services:
   - redis-server
 
 after_script:
   - npminstall codecov && codecov
-
-before_script:
-  - test/travis/redis_setup.sh

@@ -7,9 +7,6 @@ node_js:
 install:
   - npm i npminstall && npminstall
 
-before_script:
-  - test/travis/redis_setup.sh
-
 script:
   - npm run ci
 
@@ -18,3 +15,6 @@ services:
 
 after_script:
   - npminstall codecov && codecov
+
+before_script:
+  - test/travis/redis_setup.sh

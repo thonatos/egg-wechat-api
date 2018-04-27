@@ -11,7 +11,7 @@ echo ""
 
 echo "Copying Configuration..."
 
-CONFIGPATH=${TRAVIS_BUILD_DIR}/tests/travis/files/redis
+CONFIGPATH=${TRAVIS_BUILD_DIR}/test/travis/files/redis
 sudo cp ${CONFIGPATH}/redis-server2 /etc/init.d/redis-server2
 sudo cp ${CONFIGPATH}/redis-server2.conf /etc/redis/redis-server2.conf
 

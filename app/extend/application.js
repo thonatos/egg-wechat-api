@@ -7,6 +7,7 @@ module.exports = {
   get wechat() {
     if (!this[WECHAT]) {
       this[WECHAT] = createClient(this);
+      return this[WECHAT];
     }
     return this[WECHAT];
   },

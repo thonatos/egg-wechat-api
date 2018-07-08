@@ -23,6 +23,7 @@
     "egg-bin": "^4.7.1",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.17.2",
+    "egg-redis": "^2.0.0",
     "eslint": "^5.0.1",
     "eslint-config-egg": "^7.0.0",
     "supertest": "^3.1.0",

@@ -14,7 +14,8 @@ module.exports = {
 };
 
 function createClient(app) {
-  const config = app.config.WechatApi;
+  console.log(app.config.wechatApi);
+  const config = app.config.wechatApi;
   const { appId, appSecret } = config;
 
   if (!appId || !appSecret) {

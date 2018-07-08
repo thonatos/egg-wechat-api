@@ -4,7 +4,7 @@ const WechatApi = require('co-wechat-api');
 const WECHAT = Symbol('Application#wechat');
 
 module.exports = {
-  get wechat() {
+  get wechatApi() {
     if (!this[WECHAT]) {
       this[WECHAT] = createClient(this);
       return this[WECHAT];

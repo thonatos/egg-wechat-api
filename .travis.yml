@@ -12,7 +12,7 @@ after_script:
   - npminstall codecov && codecov
 
 before_script:
-  - docker-compose up -d -f test/travis/compose/docker-compose.yml  
+  - docker-compose -f test/travis/compose/docker-compose.yml up -d 
 
 services:
   - docker
